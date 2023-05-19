@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container"><header>
+        <img src="https://blog.lawsoft.com.br/wp-content/uploads/2022/06/logo-2022011707515466900.png" alt="logo da planilia">
+        <h1>Agenda de nomes</h1>
+    </header>
+    <form id="nome">
+        <input type="text" id="nome-cliente" required placeholder="nome do cliente" /> 
+        <input type="tel" id="numero-cliente" required placeholder="número do cliente" />
+        <button type="submit">Cadastrar</button>
+    </form>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>Nome do Cliente</th>
+                <th>Número do Cliente</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
